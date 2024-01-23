@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	_ "github.com/goinaction/code/chapter2/sample/matchers"
+	_ "github.com/goinaction/code/chapter2/sample/matchers" // 短横线_是为了让go对包做初始化操作init
 	"github.com/goinaction/code/chapter2/sample/search"
 )
 

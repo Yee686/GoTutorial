@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-const dataFile = "data/data.json"
+const dataFile = "chapter2/sample/data/data.json"
 
 // Feed contains information we need to process a feed.
 type Feed struct {
