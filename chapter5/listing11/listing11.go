@@ -13,6 +13,7 @@ type user struct {
 }
 
 // notify implements a method with a value receiver.
+// 类型user的方法notify，接收者是值类型
 func (u user) notify() {
 	fmt.Printf("Sending User Email To %s<%s>\n",
 		u.name,

@@ -16,7 +16,7 @@ func main() {
 	}
 
 	// Set the exported fields from the unexported
-	// inner type.
+	// inner type. 将内部类型提升到外部，由于Name和Email声明是公开的所以可以直接访问
 	a.Name = "Bill"
 	a.Email = "bill@email.com"
 
