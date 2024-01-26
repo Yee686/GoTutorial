@@ -15,6 +15,7 @@ func main() {
 
 	// wg is used to wait for the program to finish.
 	// Add a count of two, one for each goroutine.
+	// 信号量
 	var wg sync.WaitGroup
 	wg.Add(2)
 
